@@ -3,7 +3,6 @@
 namespace StefanGalescu\Heroicons;
 
 use Statamic\Providers\AddonServiceProvider;
-use StefanGalescu\Heroicons\Exceptions\IncorrectEngineException;
 
 class ServiceProvider extends AddonServiceProvider
 {
@@ -13,10 +12,6 @@ class ServiceProvider extends AddonServiceProvider
 
     public function bootAddon()
     {
-        $antlersEngine = config('statamic.antlers.version');
-
-        if ($antlersEngine !== 'runtime') {
-            throw new IncorrectEngineException();
-        }
+        
     }
 }
