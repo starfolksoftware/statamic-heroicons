@@ -1,11 +1,11 @@
 <?php
 
-namespace StefanGalescu\Heroicons\Tests;
+namespace StatamicHeroicons\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
 use Statamic\Testing\AddonTestCase;
-use StefanGalescu\Heroicons\ServiceProvider;
+use StatamicHeroicons\ServiceProvider;
 
 abstract class TestCase extends AddonTestCase
 {
@@ -23,7 +23,5 @@ abstract class TestCase extends AddonTestCase
     protected function resolveApplicationConfiguration($app)
     {
         parent::resolveApplicationConfiguration($app);
-
-        $app['config']->set('statamic.antlers.version', 'runtime');
     }
 }

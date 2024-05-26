@@ -1,13 +1,13 @@
 <?php
 
-namespace StefanGalescu\Heroicons;
+namespace StatamicHeroicons;
 
 use Statamic\Providers\AddonServiceProvider;
 
 class ServiceProvider extends AddonServiceProvider
 {
     protected $tags = [
-        \StefanGalescu\Heroicons\Tags\Heroicon::class,
+        \StatamicHeroicons\Tags\Heroicon::class,
     ];
 
     public function bootAddon()

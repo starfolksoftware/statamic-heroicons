@@ -1,6 +1,6 @@
 <?php
 
-namespace StefanGalescu\Heroicons\Tests;
+namespace StatamicHeroicons\Tests;
 
 use Statamic\Statamic;
 

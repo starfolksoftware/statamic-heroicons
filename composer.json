@@ -1,15 +1,15 @@
 {
-    "name": "stefangalescu/statamic-heroicons",
+    "name": "starfolksoftware/statamic-heroicons",
     "description": "Use and easily customize Heroicons in your Statamic templates",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "StefanGalescu\\Heroicons\\": "src"
+            "StatamicHeroicons\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "StefanGalescu\\Heroicons\\Tests\\": "tests"
+            "StatamicHeroicons\\Tests\\": "tests"
         }
     },
     "extra": {
@@ -19,7 +19,7 @@
         },
         "laravel": {
             "providers": [
-                "StefanGalescu\\Heroicons\\ServiceProvider"
+                "StatamicHeroicons\\ServiceProvider"
             ]
         }
     },
